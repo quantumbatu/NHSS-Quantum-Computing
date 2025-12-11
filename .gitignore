@@ -1,0 +1,86 @@
+# -------------------------------
+# Python cache & compiled files
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pdb
+*.pickle
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# -------------------------------
+# Virtual environments
+# -------------------------------
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# -------------------------------
+# Jupyter Notebook
+# -------------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -------------------------------
+# OS system files
+# -------------------------------
+.DS_Store
+.DS_Store?
+Thumbs.db
+Thumbs.db:encryptable
+
+# -------------------------------
+# Editors / IDEs
+# -------------------------------
+.vscode/
+.idea/
+*.iml
+
+# -------------------------------
+# Logs / debugging outputs
+# -------------------------------
+*.log
+*.out
+*.err
+
+# -------------------------------
+# Build / packaging
+# -------------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+
+# -------------------------------
+# Temporary files
+# -------------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# -------------------------------
+# Qiskit / Simulation outputs
+# -------------------------------
+result.json
+*.qasm
+*.qobj
+*.h5
+
+# -------------------------------
+# Python tooling
+# -------------------------------
+.mypy_cache/
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
